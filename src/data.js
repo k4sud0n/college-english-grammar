@@ -43,19 +43,19 @@ export const store = writable([
 		id: 2,
 		name: 'CH15',
 		video: [
-			{id: 1, key: '451418899?h=0d6b689df6'},
-			{id: 2, key: '451417964?h=8afa19683c'},
-			{id: 3, key: '451418001?h=8d6364dd76'},
-			{id: 4, key: '451418929?h=04dbdaae79'},
-			{id: 5, key: '451418297?h=42e578342d'},
-			{id: 6, key: '451418660?h=072e27dfde'},
+			{id: 1, key: '451727521?h=9fb4b546e1'},
+			{id: 2, key: '451727189?h=bc94dd7eaf'},
+			{id: 3, key: '451727288?h=e63b66ce36'},
+			{id: 4, key: '451727612?h=f29a0d02ef'},
+			{id: 5, key: '451727396?h=8dfad5248d'},
+			{id: 6, key: '451727462?h=a917a9737d'},
 		],
 		quiz: [
-			{id: 1, title: '괄호 안에 단어를 선택해 문장을 완성하세요.', content: 'The ears of a rabbit are bigger than __ of a man. (this, these, that, those)', answer: 'The ears of a rabbit are bigger than those of a man.', show: false},
-			{id: 2, title: '괄호 안에 단어를 선택해 문장을 완성하세요.', content: 'The idea is __. (She, her, hers, be seeing)', answer: 'The idea is hers', show: false},
-			{id: 3, title: '괄호 안에 단어를 선택해 문장을 완성하세요.', content: 'Heaven helps __ who help themselves. (this, these, that, those)', answer: 'Heaven helps those who help themselves.', show: false},
-			{id: 4, title: '괄호 안에 단어를 선택해 문장을 완성하세요.', content: 'I don\'t have a pen. Can you lend me __? (one, it, them, its)', answer: 'I don\'t have a pen. Can you lend me one?', show: false},
-			{id: 5, title: '괄호 안에 단어를 선택해 문장을 완성하세요.', content: 'May I ask __ he is really responsible? (that, who, which, whether)', answer: 'May I ask whether he is really responsible?', show: false}
+			{id: 1, title: 'Choose the correct word(s) in the blank.', content: 'Very (few / little) students learn Latin now.', answer: 'few', show: false},
+			{id: 2, title: 'Choose the correct word(s) in the blank.', content: 'Keep your hands up (high / highly).', answer: 'high', show: false},
+			{id: 3, title: 'Choose the correct word(s) in the blank.', content: 'I haven\'t heard from him (late / lately)', answer: 'lately', show: false},
+			{id: 4, title: 'Choose the correct word(s) in the blank.', content: 'The (accused / accuser) was sentenced to life imprisonment.', answer: 'accused', show: false},
+			{id: 5, title: 'Choose the correct word(s) in the blank.', content: 'They are much (alike / like) in character.', answer: 'alike', show: false}
 		]
 	},
 ]);

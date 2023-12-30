@@ -9,7 +9,6 @@
 	function showAnswer(quiz) {
 		quiz.show = !quiz.show;
 		$store = [...$store];
-		console.log(quiz.show)
   	}
 </script>
 
