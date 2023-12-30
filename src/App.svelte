@@ -14,9 +14,9 @@
 
 <div class="space-y-4">
 	<div class="navbar bg-primary text-primary-content bg-blue-400">
-    <!-- svelte-ignore a11y-missing-attribute -->
-    <a class="btn btn-ghost normal-case text-xl">HUFS 대영 문법동영상</a>
-  </div>
+		<!-- svelte-ignore a11y-missing-attribute -->
+		<a class="btn btn-ghost normal-case text-xl">HUFS 대영 문법동영상</a>
+	</div>
 	
 	<Body bind:active>
 		<script src="https://player.vimeo.com/api/player.js"></script>
