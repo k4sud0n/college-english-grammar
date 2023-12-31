@@ -33,7 +33,7 @@
 					<div class="card lg:card-side card-bordered">
 						<div class="card-body">
 						<h2 class="card-title">{quiz.id}. {quiz.title}</h2> 
-						<p>{quiz.content}</p> 
+						<p>{@html quiz.content}</p> 
 						<div class="card-actions">
 							<button class="btn btn-primary" on:click={() => showAnswer(quiz)}>정답 확인</button>
 							{#if quiz.show}
