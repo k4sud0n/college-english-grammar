@@ -233,7 +233,7 @@ export const store = writable([
 	},
 	{	
 		id: 11,
-		name: 'CH12',
+		name: 'CH12 (Review CH7~11)',
 		video: [
 			{id: 1, key: '430252316?h=06c70c44a7'},
 			{id: 2, key: '430252034?h=ae5fa80c8b'},
