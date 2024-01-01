@@ -1,8 +1,228 @@
 import { writable } from 'svelte/store';
 
 export const store = writable([
-    {	
+	{	
 		id: 0,
+		name: 'CH1',
+		video: [
+			{id: 1, key: '430252106?h=87a9b91785'},
+			{id: 2, key: '430250329?h=3ca65ad975'},
+			{id: 3, key: '430250520?h=0e3816dd32'},
+			{id: 4, key: '430252343?h=c7d83c53ba'},
+			{id: 5, key: '430250584?h=003a58998f'},
+			{id: 6, key: '430250656?h=7bc6a601b1'},
+		],
+		quiz: [
+			{id: 1, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: 'The (mightier, is, pen, sword, than, the) ?', answer: 'The pen is mightier than the sword.', show: false},
+			{id: 2, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: '(by, caught, hand, John, me, the).', answer: 'John caught me by the hand.', show: false},
+			{id: 3, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: '(are, big, Both, mine, students, the).', answer: 'Both the big students are mine.', show: false},
+			{id: 4, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: '(a, mine, is, of, professor, Ssam)?', answer: 'Ssam is a professor of mine.', show: false},
+			{id: 5, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: 'I love (all, honest, second, the, twenty) students.', answer: 'I love all the second twenty honest students.', show: false}
+		]
+	},
+	{	
+		id: 1,
+		name: 'CH2',
+		video: [
+			{id: 1, key: '430252117?h=60b7555c95'},
+			{id: 2, key: '430250350?h=44b7c57008'},
+			{id: 3, key: '450926479?h=79c55c3733'},
+			{id: 4, key: '430252366?h=b8f96e477d'},
+			{id: 5, key: '430250746?h=accc0f3110'},
+			{id: 6, key: '430250793?h=d4a65a4ca2'},
+		],
+		quiz: [
+			{id: 1, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: 'The (mightier, is, pen, sword, than, the) ?', answer: 'The pen is mightier than the sword.', show: false},
+			{id: 2, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: '(by, caught, hand, John, me, the).', answer: 'John caught me by the hand.', show: false},
+			{id: 3, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: '(are, big, Both, mine, students, the).', answer: 'Both the big students are mine.', show: false},
+			{id: 4, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: '(a, mine, is, of, professor, Ssam)?', answer: 'Ssam is a professor of mine.', show: false},
+			{id: 5, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: 'I love (all, honest, second, the, twenty) students.', answer: 'I love all the second twenty honest students.', show: false}
+		]
+	},
+	{	
+		id: 2,
+		name: 'CH3',
+		video: [
+			{id: 1, key: '430252136?h=471a24f6b9'},
+			{id: 2, key: '430250369?h=856fab89da'},
+			{id: 3, key: '430250814?h=a5674adc56'},
+			{id: 4, key: '430252392?h=e0e2f7d9ab'},
+			{id: 5, key: '430250878?h=f417687821'},
+			{id: 6, key: '430250941?h=51dcf95294'},
+		],
+		quiz: [
+			{id: 1, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: 'The (mightier, is, pen, sword, than, the) ?', answer: 'The pen is mightier than the sword.', show: false},
+			{id: 2, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: '(by, caught, hand, John, me, the).', answer: 'John caught me by the hand.', show: false},
+			{id: 3, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: '(are, big, Both, mine, students, the).', answer: 'Both the big students are mine.', show: false},
+			{id: 4, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: '(a, mine, is, of, professor, Ssam)?', answer: 'Ssam is a professor of mine.', show: false},
+			{id: 5, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: 'I love (all, honest, second, the, twenty) students.', answer: 'I love all the second twenty honest students.', show: false}
+		]
+	},
+	{	
+		id: 3,
+		name: 'CH4',
+		video: [
+			{id: 1, key: '430252156?h=848b5b4235'},
+			{id: 2, key: '430250380?h=f933172cf1'},
+			{id: 3, key: '430250977?h=3ec30c36c8'},
+			{id: 4, key: '430252410?h=6c11b3308c'},
+			{id: 5, key: '430251012?h=73d2d39344'},
+			{id: 6, key: '430251057?h=18ae2e002f'},
+		],
+		quiz: [
+			{id: 1, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: 'The (mightier, is, pen, sword, than, the) ?', answer: 'The pen is mightier than the sword.', show: false},
+			{id: 2, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: '(by, caught, hand, John, me, the).', answer: 'John caught me by the hand.', show: false},
+			{id: 3, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: '(are, big, Both, mine, students, the).', answer: 'Both the big students are mine.', show: false},
+			{id: 4, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: '(a, mine, is, of, professor, Ssam)?', answer: 'Ssam is a professor of mine.', show: false},
+			{id: 5, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: 'I love (all, honest, second, the, twenty) students.', answer: 'I love all the second twenty honest students.', show: false}
+		]
+	},
+	{	
+		id: 4,
+		name: 'CH5',
+		video: [
+			{id: 1, key: '430252176?h=18c876f47a'},
+			{id: 2, key: '430250419?h=b7356ecc07'},
+			{id: 3, key: '430251083?h=cc309f96a3'},
+			{id: 4, key: '430252431?h=d2b82d2779'},
+			{id: 5, key: '430251157?h=e71c20844a'},
+			{id: 6, key: '430251213?h=0b3ef8634c'},
+		],
+		quiz: [
+			{id: 1, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: 'The (mightier, is, pen, sword, than, the) ?', answer: 'The pen is mightier than the sword.', show: false},
+			{id: 2, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: '(by, caught, hand, John, me, the).', answer: 'John caught me by the hand.', show: false},
+			{id: 3, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: '(are, big, Both, mine, students, the).', answer: 'Both the big students are mine.', show: false},
+			{id: 4, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: '(a, mine, is, of, professor, Ssam)?', answer: 'Ssam is a professor of mine.', show: false},
+			{id: 5, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: 'I love (all, honest, second, the, twenty) students.', answer: 'I love all the second twenty honest students.', show: false}
+		]
+	},
+	{	
+		id: 5,
+		name: 'CH6',
+		video: [
+			{id: 1, key: '430252191?h=bafdda1545'},
+			{id: 2, key: '430251238?h=fdef8cfe6e'},
+		],
+		quiz: [
+			{id: 1, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: 'The (mightier, is, pen, sword, than, the) ?', answer: 'The pen is mightier than the sword.', show: false},
+			{id: 2, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: '(by, caught, hand, John, me, the).', answer: 'John caught me by the hand.', show: false},
+			{id: 3, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: '(are, big, Both, mine, students, the).', answer: 'Both the big students are mine.', show: false},
+			{id: 4, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: '(a, mine, is, of, professor, Ssam)?', answer: 'Ssam is a professor of mine.', show: false},
+			{id: 5, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: 'I love (all, honest, second, the, twenty) students.', answer: 'I love all the second twenty honest students.', show: false}
+		]
+	},
+	{	
+		id: 6,
+		name: 'CH7',
+		video: [
+			{id: 1, key: '430252215?h=ec6bc12f75'},
+			{id: 2, key: '430250446?h=cdf6460ee7'},
+			{id: 3, key: '430251344?h=18f2d10f51'},
+			{id: 4, key: '430252457?h=ab1225a324'},
+			{id: 5, key: '430251434?h=d3a5a23b9d'},
+			{id: 6, key: '430251489?h=61e3355f05'},
+		],
+		quiz: [
+			{id: 1, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: 'The (mightier, is, pen, sword, than, the) ?', answer: 'The pen is mightier than the sword.', show: false},
+			{id: 2, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: '(by, caught, hand, John, me, the).', answer: 'John caught me by the hand.', show: false},
+			{id: 3, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: '(are, big, Both, mine, students, the).', answer: 'Both the big students are mine.', show: false},
+			{id: 4, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: '(a, mine, is, of, professor, Ssam)?', answer: 'Ssam is a professor of mine.', show: false},
+			{id: 5, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: 'I love (all, honest, second, the, twenty) students.', answer: 'I love all the second twenty honest students.', show: false}
+		]
+	},
+	{	
+		id: 7,
+		name: 'CH8',
+		video: [
+			{id: 1, key: '430252234?h=c91373b70a'},
+			{id: 2, key: '430250463?h=c0cc27c912'},
+			{id: 3, key: '430251504?h=fd785ab538'},
+			{id: 4, key: '430252481?h=f7b224ec14'},
+			{id: 5, key: '430251580?h=86a0580ab7'},
+			{id: 6, key: '430251635?h=6aa40a4fad'},
+		],
+		quiz: [
+			{id: 1, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: 'The (mightier, is, pen, sword, than, the) ?', answer: 'The pen is mightier than the sword.', show: false},
+			{id: 2, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: '(by, caught, hand, John, me, the).', answer: 'John caught me by the hand.', show: false},
+			{id: 3, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: '(are, big, Both, mine, students, the).', answer: 'Both the big students are mine.', show: false},
+			{id: 4, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: '(a, mine, is, of, professor, Ssam)?', answer: 'Ssam is a professor of mine.', show: false},
+			{id: 5, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: 'I love (all, honest, second, the, twenty) students.', answer: 'I love all the second twenty honest students.', show: false}
+		]
+	},
+	{	
+		id: 8,
+		name: 'CH9',
+		video: [
+			{id: 1, key: '430252249?h=8e1b7066d0'},
+			{id: 2, key: '430250477?h=388a450bf3'},
+			{id: 3, key: '430251658?h=5b8eb0694b'},
+			{id: 4, key: '430252510?h=d30ab4068d'},
+			{id: 5, key: '430251698?h=e7d391fc81'},
+			{id: 6, key: '430251751?h=73bd2792f3'},
+		],
+		quiz: [
+			{id: 1, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: 'The (mightier, is, pen, sword, than, the) ?', answer: 'The pen is mightier than the sword.', show: false},
+			{id: 2, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: '(by, caught, hand, John, me, the).', answer: 'John caught me by the hand.', show: false},
+			{id: 3, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: '(are, big, Both, mine, students, the).', answer: 'Both the big students are mine.', show: false},
+			{id: 4, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: '(a, mine, is, of, professor, Ssam)?', answer: 'Ssam is a professor of mine.', show: false},
+			{id: 5, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: 'I love (all, honest, second, the, twenty) students.', answer: 'I love all the second twenty honest students.', show: false}
+		]
+	},
+	{	
+		id: 9,
+		name: 'CH10',
+		video: [
+			{id: 1, key: '430252276?h=3fd133d6af'},
+			{id: 2, key: '430250495?h=84f649b61f'},
+			{id: 3, key: '430251777?h=eba8520510'},
+			{id: 4, key: '430252526?h=c012fea7d5'},
+			{id: 5, key: '430251850?h=8ff166b9b5'},
+			{id: 6, key: '430251898?h=0e798cc405'},
+		],
+		quiz: [
+			{id: 1, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: 'The (mightier, is, pen, sword, than, the) ?', answer: 'The pen is mightier than the sword.', show: false},
+			{id: 2, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: '(by, caught, hand, John, me, the).', answer: 'John caught me by the hand.', show: false},
+			{id: 3, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: '(are, big, Both, mine, students, the).', answer: 'Both the big students are mine.', show: false},
+			{id: 4, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: '(a, mine, is, of, professor, Ssam)?', answer: 'Ssam is a professor of mine.', show: false},
+			{id: 5, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: 'I love (all, honest, second, the, twenty) students.', answer: 'I love all the second twenty honest students.', show: false}
+		]
+	},
+	{	
+		id: 10,
+		name: 'CH11',
+		video: [
+			{id: 1, key: '430252298?h=8e0b134811'},
+			{id: 2, key: '430250510?h=98e22a001c'},
+			{id: 3, key: '430251917?h=870cfd4139'},
+			{id: 4, key: '430252556?h=26196d7e76'},
+			{id: 5, key: '430251973?h=7b0ce3e7c3'},
+			{id: 6, key: '430252014?h=1f415630e1'},
+		],
+		quiz: [
+			{id: 1, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: 'The (mightier, is, pen, sword, than, the) ?', answer: 'The pen is mightier than the sword.', show: false},
+			{id: 2, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: '(by, caught, hand, John, me, the).', answer: 'John caught me by the hand.', show: false},
+			{id: 3, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: '(are, big, Both, mine, students, the).', answer: 'Both the big students are mine.', show: false},
+			{id: 4, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: '(a, mine, is, of, professor, Ssam)?', answer: 'Ssam is a professor of mine.', show: false},
+			{id: 5, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: 'I love (all, honest, second, the, twenty) students.', answer: 'I love all the second twenty honest students.', show: false}
+		]
+	},
+	{	
+		id: 11,
+		name: 'CH12',
+		video: [
+			{id: 1, key: '430252316?h=06c70c44a7'},
+			{id: 2, key: '430252034?h=ae5fa80c8b'},
+		],
+		quiz: [
+			{id: 1, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: 'The (mightier, is, pen, sword, than, the) ?', answer: 'The pen is mightier than the sword.', show: false},
+			{id: 2, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: '(by, caught, hand, John, me, the).', answer: 'John caught me by the hand.', show: false},
+			{id: 3, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: '(are, big, Both, mine, students, the).', answer: 'Both the big students are mine.', show: false},
+			{id: 4, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: '(a, mine, is, of, professor, Ssam)?', answer: 'Ssam is a professor of mine.', show: false},
+			{id: 5, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: 'I love (all, honest, second, the, twenty) students.', answer: 'I love all the second twenty honest students.', show: false}
+		]
+	},
+    {	
+		id: 12,
 		name: 'CH13',
 		video: [
 			{id: 1, key: '451075703?h=5e85604972'},
@@ -21,7 +241,7 @@ export const store = writable([
 		]
 	},
 	{	
-		id: 1,
+		id: 13,
 		name: 'CH14',
 		video: [
 			{id: 1, key: '451418899?h=0d6b689df6'},
@@ -40,7 +260,7 @@ export const store = writable([
 		]
 	},
 	{	
-		id: 2,
+		id: 14,
 		name: 'CH15',
 		video: [
 			{id: 1, key: '451727521?h=9fb4b546e1'},
@@ -59,7 +279,7 @@ export const store = writable([
 		]
 	},
 	{	
-		id: 3,
+		id: 15,
 		name: 'CH16',
 		video: [
 			{id: 1, key: '451728753?h=5316120c62'},
@@ -78,7 +298,7 @@ export const store = writable([
 		]
 	},
 	{	
-		id: 4,
+		id: 16,
 		name: 'CH17',
 		video: [
 			{id: 1, key: '451729141?h=fca6be5432'},
@@ -97,7 +317,7 @@ export const store = writable([
 		]
 	},
 	{	
-		id: 5,
+		id: 17,
 		name: 'CH18 (Review CH13~17)',
 		video: [
 			{id: 1, key: '451729622?h=7d83d0041b'},
@@ -137,7 +357,7 @@ export const store = writable([
 		]
 	},
 	{	
-		id: 6,
+		id: 18,
 		name: 'CH19',
 		video: [
 			{id: 1, key: '451729688?h=858826eacd'},
@@ -156,7 +376,7 @@ export const store = writable([
 		]
 	},
 	{	
-		id: 7,
+		id: 19,
 		name: 'CH20',
 		video: [
 			{id: 1, key: '451730056?h=16c279de6a'},
@@ -175,7 +395,7 @@ export const store = writable([
 		]
 	},
 	{	
-		id: 8,
+		id: 20,
 		name: 'CH21',
 		video: [
 			{id: 1, key: '451730056?h=16c279de6a'},
@@ -194,7 +414,7 @@ export const store = writable([
 		]
 	},
 	{	
-		id: 9,
+		id: 21,
 		name: 'CH22',
 		video: [
 			{id: 1, key: '451730734?h=e302c9cb31'},
@@ -213,7 +433,7 @@ export const store = writable([
 		]
 	},
 	{	
-		id: 10,
+		id: 22,
 		name: 'CH23',
 		video: [
 			{id: 1, key: '451731096?h=ccfdc7ba69'},
@@ -232,7 +452,7 @@ export const store = writable([
 		]
 	},
 	{	
-		id: 11,
+		id: 23,
 		name: 'CH24',
 		video: [
 			{id: 1, key: '451731129?h=1347453765'},
