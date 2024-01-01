@@ -98,7 +98,7 @@ export const store = writable([
 	},
 	{	
 		id: 5,
-		name: 'CH6',
+		name: 'CH6 (Review CH1~5)',
 		video: [
 			{id: 1, key: '430252191?h=bafdda1545'},
 			{id: 2, key: '430251238?h=fdef8cfe6e'},
@@ -129,11 +129,11 @@ export const store = writable([
 			{id: 23, title: '빈칸에 알맞은 단어를 선택해 문장을 완성하세요.', content: 'The promotion list ____________ by noon tomorrow. <br /> a. is notified b. is being c. will be notifying d. will have been notified', answer: 'd. will have been notified', show: false},
 			{id: 24, title: '빈칸에 알맞은 단어를 선택해 문장을 완성하세요.', content: 'Nana ____________ the piano for two hours when John came to see her. <br /> a. was playing b. was been playing c. has been playing d. had been playing', answer: 'd. had been playing', show: false},
 			{id: 25, title: '빈칸에 알맞은 단어를 선택해 문장을 완성하세요.', content: 'The decline of outmoded industries has resulted in an unstable economy, since no easy way of retraining workers ____________ . <br /> a. has never been found b. have been found c. have always been found d. has ever been found', answer: 'd. has ever been found', show: false},
-			{id: 26, title: 'Find the incorrect sentences in the following sentences', content: 'a. He married young b. I have gone to the concert c. Jane told me that she is single. d. The sun rises in the east everyday.', answer: 'b. I have gone to the concert.', show: false},
-			{id: 27, title: 'Find the incorrect sentences in the following sentences', content: 'a. He got up at nine this morning. b. He is leaving tomorrow for Busan. c. He has been teaching English for 10 years. d. I lost my cell phone that my father has given me as a birthday gift', answer: 'd. I lost my cell phone that my father has given me as a birthday gift.', show: false},
-			{id: 28, title: 'Find the incorrect sentences in the following sentences', content: 'a. He was being silly yesterday. b. He has broken the window yesterday. c. She is thinking about breaking up with him. d. Hey, look at the traffic jam! We are going to be late.', answer: 'd. I as well as you are responsible for the matter.', show: false},
-			{id: 29, title: 'Find the incorrect sentences in the following sentences', content: 'a. We’ll be flying at 20,000 feet. b. I am willing to do anything for you. c.Brad pitt was married with Angelina Jolie. d. John will com tonight. When he comes, I will sing with my heart.', answer: 'c. Brad pitt was married with Angelina Jolie.', show: false},
-			{id: 29, title: 'Find the incorrect sentences in the following sentences', content: 'a. The movie starts in 30 minutes. b. Have you discussed about the problem with anyone? c. According to the weather forecast, it is going to rain tomorrow. d. The population of the world has exceeded 7 billion and is still increasing.', answer: 'b. Have you discussed about the problem with anyone?', show: false}
+			{id: 26, title: 'Find the incorrect sentences in the following sentences', content: 'a. He married young &nbsp;&nbsp; b. I have gone to the concert &nbsp;&nbsp; c. Jane told me that she is single. &nbsp;&nbsp; d. The sun rises in the east everyday.', answer: 'b. I have gone to the concert.', show: false},
+			{id: 27, title: 'Find the incorrect sentences in the following sentences', content: 'a. He got up at nine this morning. &nbsp;&nbsp; b. He is leaving tomorrow for Busan. &nbsp;&nbsp; c. He has been teaching English for 10 years. &nbsp;&nbsp; d. I lost my cell phone that my father has given me as a birthday gift', answer: 'd. I lost my cell phone that my father has given me as a birthday gift.', show: false},
+			{id: 28, title: 'Find the incorrect sentences in the following sentences', content: 'a. He was being silly yesterday. &nbsp;&nbsp; b. He has broken the window yesterday. &nbsp;&nbsp; c. She is thinking about breaking up with him. &nbsp;&nbsp; d. Hey, look at the traffic jam! We are going to be late.', answer: 'd. I as well as you are responsible for the matter.', show: false},
+			{id: 29, title: 'Find the incorrect sentences in the following sentences', content: 'a. We’ll be flying at 20,000 feet. &nbsp;&nbsp; b. I am willing to do anything for you. &nbsp;&nbsp; c.Brad pitt was married with Angelina Jolie. &nbsp;&nbsp; d. John will com tonight. When he comes, I will sing with my heart.', answer: 'c. Brad pitt was married with Angelina Jolie.', show: false},
+			{id: 30, title: 'Find the incorrect sentences in the following sentences', content: 'a. The movie starts in 30 minutes. &nbsp;&nbsp; b. Have you discussed about the problem with anyone? &nbsp;&nbsp; c. According to the weather forecast, it is going to rain tomorrow. &nbsp;&nbsp; d. The population of the world has exceeded 7 billion and is still increasing.', answer: 'b. Have you discussed about the problem with anyone?', show: false}
 		]
 	},
 	{	
@@ -148,11 +148,11 @@ export const store = writable([
 			{id: 6, key: '430251489?h=61e3355f05'},
 		],
 		quiz: [
-			{id: 1, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: 'The (mightier, is, pen, sword, than, the) ?', answer: 'The pen is mightier than the sword.', show: false},
-			{id: 2, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: '(by, caught, hand, John, me, the).', answer: 'John caught me by the hand.', show: false},
-			{id: 3, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: '(are, big, Both, mine, students, the).', answer: 'Both the big students are mine.', show: false},
-			{id: 4, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: '(a, mine, is, of, professor, Ssam)?', answer: 'Ssam is a professor of mine.', show: false},
-			{id: 5, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: 'I love (all, honest, second, the, twenty) students.', answer: 'I love all the second twenty honest students.', show: false}
+			{id: 1, title: 'Answer the following questions O(correct) or X(incorrect).', content: 'He can does it.', answer: 'X (incorrect)', show: false},
+			{id: 2, title: 'Answer the following questions O(correct) or X(incorrect).', content: 'Did you do homework?', answer: 'O (correct)', show: false},
+			{id: 3, title: 'Answer the following questions O(correct) or X(incorrect).', content: 'He will can do it.', answer: 'X (incorrect)', show: false},
+			{id: 4, title: 'Answer the following questions O(correct) or X(incorrect).', content: 'Do be carefull.', answer: 'O (correct)', show: false},
+			{id: 5, title: 'Answer the following questions O(correct) or X(incorrect).', content: 'Little I dreamed of doing such a thing.', answer: 'X (incorrect)', show: false}
 		]
 	},
 	{	
@@ -167,11 +167,11 @@ export const store = writable([
 			{id: 6, key: '430251635?h=6aa40a4fad'},
 		],
 		quiz: [
-			{id: 1, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: 'The (mightier, is, pen, sword, than, the) ?', answer: 'The pen is mightier than the sword.', show: false},
-			{id: 2, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: '(by, caught, hand, John, me, the).', answer: 'John caught me by the hand.', show: false},
-			{id: 3, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: '(are, big, Both, mine, students, the).', answer: 'Both the big students are mine.', show: false},
-			{id: 4, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: '(a, mine, is, of, professor, Ssam)?', answer: 'Ssam is a professor of mine.', show: false},
-			{id: 5, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: 'I love (all, honest, second, the, twenty) students.', answer: 'I love all the second twenty honest students.', show: false}
+			{id: 1, title: '괄호 안에 단어를 선택해 문장을 완성하세요.', content: 'Anybody (_____) make a mistake. (can, must, has to)', answer: 'Anybody can make a mistake.', show: false},
+			{id: 2, title: '괄호 안에 단어를 선택해 문장을 완성하세요.', content: 'When I was a kid, there (______) be a mail box on the corner. (can, used to, would)', answer: 'When I was a kid, there used to be a mail box on the corner.', show: false},
+			{id: 3, title: '괄호 안에 단어를 선택해 문장을 완성하세요.', content: 'My father insisted that we (_____) honest with each other. (are, were, be)', answer: 'My father insisted that we be honest with each other.', show: false},
+			{id: 4, title: '괄호 안에 단어를 선택해 문장을 완성하세요.', content: 'The movie was boring, but we (_________) the movie. (have to see, had to see, should have seen)', answer: 'The movie was boring, but we had to see the movie.', show: false},
+			{id: 5, title: '괄호 안에 단어를 선택해 문장을 완성하세요.', content: 'He (_____) have studied English harder. (should, cannot, must)', answer: 'He should have studied English harder. = It is regrettable that he did not study English harder.', show: false}
 		]
 	},
 	{	
@@ -186,11 +186,11 @@ export const store = writable([
 			{id: 6, key: '430251751?h=73bd2792f3'},
 		],
 		quiz: [
-			{id: 1, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: 'The (mightier, is, pen, sword, than, the) ?', answer: 'The pen is mightier than the sword.', show: false},
-			{id: 2, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: '(by, caught, hand, John, me, the).', answer: 'John caught me by the hand.', show: false},
-			{id: 3, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: '(are, big, Both, mine, students, the).', answer: 'Both the big students are mine.', show: false},
-			{id: 4, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: '(a, mine, is, of, professor, Ssam)?', answer: 'Ssam is a professor of mine.', show: false},
-			{id: 5, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: 'I love (all, honest, second, the, twenty) students.', answer: 'I love all the second twenty honest students.', show: false}
+			{id: 1, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: 'Is that (for, here, go, or, to) ?', answer: 'Is that for here or to go?', show: false},
+			{id: 2, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: 'His elder sister takes (care, of, of, the, youngest, three, children).', answer: 'His elder sister takes care of the youngest of three children.', show: false},
+			{id: 3, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: 'My parents (final, grades, my, satisfied, were, with).', answer: 'My parents were satisfied with my final grades.', show: false},
+			{id: 4, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: 'A man (by, friends, he, is, keeps, known, the).', answer: 'A man is known by the friends he keeps.', show: false},
+			{id: 5, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: 'Who (accident, blame, for, is, the, to)?', answer: 'Who is to blame for the accident?', show: false}
 		]
 	},
 	{	
@@ -205,11 +205,11 @@ export const store = writable([
 			{id: 6, key: '430251898?h=0e798cc405'},
 		],
 		quiz: [
-			{id: 1, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: 'The (mightier, is, pen, sword, than, the) ?', answer: 'The pen is mightier than the sword.', show: false},
-			{id: 2, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: '(by, caught, hand, John, me, the).', answer: 'John caught me by the hand.', show: false},
-			{id: 3, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: '(are, big, Both, mine, students, the).', answer: 'Both the big students are mine.', show: false},
-			{id: 4, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: '(a, mine, is, of, professor, Ssam)?', answer: 'Ssam is a professor of mine.', show: false},
-			{id: 5, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: 'I love (all, honest, second, the, twenty) students.', answer: 'I love all the second twenty honest students.', show: false}
+			{id: 1, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: 'Are you (enough, movie, old, this, to, watch) ?', answer: 'Are you old enough to watch this movie?', show: false},
+			{id: 2, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: 'I don’t know (and, do, go, there, to, to, what, where).', answer: 'I don’t know where to go and what to do there.', show: false},
+			{id: 3, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: 'John (has, house, in, live, no, to).', answer: 'John has no house to live in.', show: false},
+			{id: 4, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: 'John (easy, for, her, is, please, to).', answer: 'John is easy for her to please.', show: false},
+			{id: 5, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: 'To (fired, got, he, make, matters, worse).', answer: 'To make matters worse he got fired.', show: false}
 		]
 	},
 	{	
@@ -224,11 +224,11 @@ export const store = writable([
 			{id: 6, key: '430252014?h=1f415630e1'},
 		],
 		quiz: [
-			{id: 1, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: 'The (mightier, is, pen, sword, than, the) ?', answer: 'The pen is mightier than the sword.', show: false},
-			{id: 2, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: '(by, caught, hand, John, me, the).', answer: 'John caught me by the hand.', show: false},
-			{id: 3, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: '(are, big, Both, mine, students, the).', answer: 'Both the big students are mine.', show: false},
-			{id: 4, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: '(a, mine, is, of, professor, Ssam)?', answer: 'Ssam is a professor of mine.', show: false},
-			{id: 5, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: 'I love (all, honest, second, the, twenty) students.', answer: 'I love all the second twenty honest students.', show: false}
+			{id: 1, title: '괄호 안에 단어를 선택해 문장을 완성하세요.', content: 'I’ll be busy (_______) for the TOEIC until the end of the vacation. (studing, to study, to be studying)', answer: 'I’ll be busy studying for the TOEIC until the end of the vacation.', show: false},
+			{id: 2, title: '괄호 안에 단어를 선택해 문장을 완성하세요.', content: 'I look forward to (____) you. (see, seeing, be seeing)', answer: 'I look forward to seeing you.', show: false},
+			{id: 3, title: '괄호 안에 단어를 선택해 문장을 완성하세요.', content: 'She made a resolution to give up (______) . (drinking, to drink, to be drinking)', answer: 'She made a resolution to give up drinking.', show: false},
+			{id: 4, title: '괄호 안에 단어를 선택해 문장을 완성하세요.', content: 'I was bored with listening to his (_____) speech. (boring, bored, being bored)', answer: 'I was bored with listening to his boring speech.', show: false},
+			{id: 5, title: '괄호 안에 단어를 선택해 문장을 완성하세요.', content: 'As the job has been done, we have to leave. = (____________), we have to leave. (Doing, Having done, The job done)', answer: 'As the job has been done, we have to leave. = The job done, we have to leave.', show: false}
 		]
 	},
 	{	
@@ -239,36 +239,36 @@ export const store = writable([
 			{id: 2, key: '430252034?h=ae5fa80c8b'},
 		],
 		quiz: [
-			{id: 1, title: '괄호 안에 단어들 중에 알맞은 것을 선택해 문장을 완성하세요.', content: 'I’ll keep on trying my (best , most).', answer: 'I’ll keep on trying my best.', show: false},
-			{id: 2, title: '괄호 안에 단어들 중에 알맞은 것을 선택해 문장을 완성하세요.', content: 'I wonder (that , whether) she loves me.', answer: 'I wonder whether she loves me.', show: false},
-			{id: 3, title: '괄호 안에 단어들 중에 알맞은 것을 선택해 문장을 완성하세요.', content: 'I met a man (who , whom) I thought was honest.', answer: 'I met a man who I thought was honest.', show: false},
-			{id: 4, title: '괄호 안에 단어들 중에 알맞은 것을 선택해 문장을 완성하세요.', content: 'He reads as (many , much) as seven books every week.', answer: 'Mark always sits in armchair.', show: false},
-			{id: 5, title: '괄호 안에 단어들 중에 알맞은 것을 선택해 문장을 완성하세요.', content: 'He ran as quickly as (can , possible).', answer: 'He ran as quickly as possible.', show: false},
-			{id: 6, title: '괄호 안에 단어들 중에 알맞은 것을 선택해 문장을 완성하세요.', content: 'That is not (that , what) I meant to say.', answer: 'That is not what I meant to say.', show: false},
-			{id: 7, title: '괄호 안에 단어들 중에 알맞은 것을 선택해 문장을 완성하세요.', content: 'He said nothing, (that , which) made me angry.', answer: 'He said nothing, which made me angry.', show: false},
-			{id: 8, title: '괄호 안에 단어들 중에 알맞은 것을 선택해 문장을 완성하세요.', content: 'Every boy and girl (invite , invites) their own parents.', answer: 'Every boy and girl invites their own parents.', show: false},
-			{id: 9, title: '괄호 안에 단어들 중에 알맞은 것을 선택해 문장을 완성하세요.', content: 'There (are , is) so many choices.', answer: 'There are so many choices.', show: false},
-			{id: 10, title: '괄호 안에 단어들 중에 알맞은 것을 선택해 문장을 완성하세요.', content: 'I owe (that , what) I am to my mother.', answer: 'I owe what I am to my mother.', show: false},
-			{id: 11, title: '괄호 안에 단어들 중에 알맞은 것을 선택해 문장을 완성하세요.', content: '(Whoever / Whatever) you do matters little.', answer: 'Whatever you do matters little.', show: false},
-			{id: 12, title: '괄호 안에 단어들 중에 알맞은 것을 선택해 문장을 완성하세요.', content: 'These days, a large number of students (wear, wears) glasses.', answer: 'These days, a large number of students wear glasses.', show: false},
-			{id: 13, title: '괄호 안에 단어들 중에 알맞은 것을 선택해 문장을 완성하세요.', content: 'This is the only paper (that , who) I subscribe.', answer: 'This is the only paper that I subscribe.', show: false},
-			{id: 14, title: '괄호 안에 단어들 중에 알맞은 것을 선택해 문장을 완성하세요.', content: 'Curry and rice (are / is) one of my favorite foods.', answer: 'Curry and rice is one of my favorite foods.', show: false},
-			{id: 15, title: '괄호 안에 단어들 중에 알맞은 것을 선택해 문장을 완성하세요.', content: 'She works hard, (however , otherwise) she would fail.', answer: 'She works hard, otherwise she would fail.', show: false},
-			{id: 16, title: '괄호 안에 단어들 중에 알맞은 것을 선택해 문장을 완성하세요.', content: 'It is worth attempting (because , even though) we fail.', answer: 'It is worth attempting even though we fail.', show: false},
-			{id: 17, title: '괄호 안에 단어들 중에 알맞은 것을 선택해 문장을 완성하세요.', content: '(With , Without) your help, I would have failed.', answer: 'Without your help, I would have failed.', show: false},
-			{id: 18, title: '괄호 안에 단어들 중에 알맞은 것을 선택해 문장을 완성하세요.', content: 'The doctor advised me not (smoking , to smoke).', answer: 'The doctor advised me not to smoke.', show: false},
-			{id: 19, title: '괄호 안에 단어들 중에 알맞은 것을 선택해 문장을 완성하세요.', content: 'My husband is (elder , older) than my (elder , older) brother.', answer: 'My husband is older than my elder brother.', show: false},
-			{id: 20, title: '괄호 안에 단어들 중에 알맞은 것을 선택해 문장을 완성하세요.', content: '(As , So) food is to the body, (as , so) is reading to the mind.', answer: 'As food is to the body, so is reading to the mind.', show: false},
-			{id: 21, title: '빈칸에 알맞은 단어를 선택해 문장을 완성하세요.', content: 'Here is the village ____________  I was born. <br /> a. there b. that c. which d. where', answer: 'd. where', show: false},
-			{id: 22, title: '빈칸에 알맞은 단어를 선택해 문장을 완성하세요.', content: 'This is ____________ the best. <br /> a. very b. even c. still d. much', answer: 'd. much', show: false},
-			{id: 23, title: '빈칸에 알맞은 단어를 선택해 문장을 완성하세요.', content: 'Look at the boy and his dog ____________ are crossing the road. <br /> a. Who b. which c. that d. what', answer: 'c. that', show: false},
-			{id: 24, title: '빈칸에 알맞은 단어를 선택해 문장을 완성하세요.', content: '____________ is more time. <br /> a. What we need b. That we need c. Which we need d. What we are needed', answer: 'a. What we need', show: false},
-			{id: 25, title: '빈칸에 알맞은 단어를 선택해 문장을 완성하세요.', content: 'There is no rule without exceptions. = There is no rule ____________ has exceptions. <br /> a. and b. or c. but d. for', answer: 'c. but', show: false},
-			{id: 26, title: '빈칸에 알맞은 단어를 선택해 문장을 완성하세요.', content: 'He is the last man to tell a lie.= He is ____________ from telling a lie. <br /> a. above b. far c. last d. late', answer: 'b. far', show: false},
-			{id: 27, title: 'Find the incorrect sentences in the following sentences', content: 'a. Who in the world are you? &nbsp;&nbsp; b. The number of attendees are decreasing. &nbsp;&nbsp; c. Reading is to the mind what food is to the body. &nbsp;&nbsp; d. Happy is the man who can say that he is content with his life.', answer: 'b. The number of attendees are decreasing.', show: false},
-			{id: 28, title: 'Find the incorrect sentences in the following sentences', content: 'a. He is easy to get in with. &nbsp;&nbsp; b. He asked me if I had ever seen a dragon. &nbsp;&nbsp; c. The latter part of the movie was interesting. &nbsp;&nbsp; d. I as well as you are responsible for the matter.', answer: 'd. I as well as you are responsible for the matter.', show: false},
-			{id: 29, title: 'Find the incorrect sentences in the following sentences', content: 'a. John is two years junior than me. &nbsp;&nbsp; b. If he had not helped me, I would not be alive now. &nbsp;&nbsp; c. I believe you. No one can deny the fact that you are not guilty. &nbsp;&nbsp; d. It is no exaggeration to say that a book can change a person’s life.', answer: 'a. John is two years junior than me.', show: false},
-			{id: 30, title: 'Find the incorrect sentences in the following sentences', content: 'a. The sooner, the better. &nbsp;&nbsp; b. When young, she was very beautiful. &nbsp;&nbsp; c. You asked him to leave, and so I did. &nbsp;&nbsp; d. What I need most now is not your advice but your love.', answer: 'c. You asked him to leave, and so I did.', show: false},
+			{id: 1, title: '괄호 안에 단어들 중에 알맞은 것을 선택해 문장을 완성하세요.', content: 'Have you (do, doing, done) your homework?', answer: 'Have you done your homework?', show: false},
+			{id: 2, title: '괄호 안에 단어들 중에 알맞은 것을 선택해 문장을 완성하세요.', content: 'One swallow doesn’t (become, make, made) a summer.', answer: 'One swallow doesn’t make a summer.', show: false},
+			{id: 3, title: '괄호 안에 단어들 중에 알맞은 것을 선택해 문장을 완성하세요.', content: 'I will (can, could, be able to) help him if he does the best of his best.', answer: 'I will be able to help him if he does the best of his best.', show: false},
+			{id: 4, title: '괄호 안에 단어들 중에 알맞은 것을 선택해 문장을 완성하세요.', content: 'A: Do you want me to stay with you? <br /> B: Yes, I (am, do, will)', answer: 'A: Do you want me to stay with you? B: Yes, I do', show: false},
+			{id: 5, title: '괄호 안에 단어들 중에 알맞은 것을 선택해 문장을 완성하세요.', content: '(May, Will) I use your cell phone?', answer: 'May I use your cell phone?', show: false},
+			{id: 6, title: '괄호 안에 단어들 중에 알맞은 것을 선택해 문장을 완성하세요.', content: 'You (must, ought) to do it at once.', answer: 'You ought to do it at once.', show: false},
+			{id: 7, title: '괄호 안에 단어들 중에 알맞은 것을 선택해 문장을 완성하세요.', content: 'There (used to, would) be a mail box on the corner.', answer: 'There used to be a mail box on the corner.', show: false},
+			{id: 8, title: '괄호 안에 단어들 중에 알맞은 것을 선택해 문장을 완성하세요.', content: 'She insists that her son (see, saw) a UFO yesterday.', answer: 'She insists that her son saw a UFO yesterday.', show: false},
+			{id: 9, title: '괄호 안에 단어들 중에 알맞은 것을 선택해 문장을 완성하세요.', content: 'Are you (be, been, being) served?', answer: 'Are you being served?', show: false},
+			{id: 10, title: '괄호 안에 단어들 중에 알맞은 것을 선택해 문장을 완성하세요.', content: 'I was not disappointed (at, for, to) the final result.', answer: 'I was not disappointed at the final result.', show: false},
+			{id: 11, title: '괄호 안에 단어들 중에 알맞은 것을 선택해 문장을 완성하세요.', content: 'A man is known (by, to, for) the friends he keeps.', answer: 'A man is known by the friends he keeps.', show: false},
+			{id: 12, title: '괄호 안에 단어들 중에 알맞은 것을 선택해 문장을 완성하세요.', content: 'The house needs (painting, to paint, to be painting).', answer: 'The house needs painting.', show: false},
+			{id: 13, title: '괄호 안에 단어들 중에 알맞은 것을 선택해 문장을 완성하세요.', content: 'It is kind (for, of) you to help me.', answer: 'It is kind of you to help me.', show: false},
+			{id: 14, title: '괄호 안에 단어들 중에 알맞은 것을 선택해 문장을 완성하세요.', content: 'I had my cell phone (repair, repairing, repaired).', answer: 'I had my cell phone repaired.', show: false},
+			{id: 15, title: '괄호 안에 단어들 중에 알맞은 것을 선택해 문장을 완성하세요.', content: 'That box is (so, very, too) heavy for John to lift = That box is so heavy that John cannot lift.', answer: 'That box is too heavy for John to lift = That box is so heavy that John cannot lift.', show: false},
+			{id: 16, title: '괄호 안에 단어들 중에 알맞은 것을 선택해 문장을 완성하세요.', content: 'It seemed that he had been rich. = He seemed (to be, to had, to have been) rich.', answer: 'It seemed that he had been rich. = He seemed to have been rich.', show: false},
+			{id: 17, title: '괄호 안에 단어들 중에 알맞은 것을 선택해 문장을 완성하세요.', content: 'It is no use (try, trying, to try) to persuade her.', answer: 'It is no use trying to persuade her.', show: false},
+			{id: 18, title: '괄호 안에 단어들 중에 알맞은 것을 선택해 문장을 완성하세요.', content: 'I was (boring, bored) with listening to his (boring, bored) speech.', answer: 'I was bored with listening to his boring speech.', show: false},
+			{id: 19, title: '괄호 안에 단어들 중에 알맞은 것을 선택해 문장을 완성하세요.', content: 'He stopped (smoking, to smoke, to smoking) because of his bad health.', answer: 'He stopped smoking because of his bad health.', show: false},
+			{id: 20, title: '괄호 안에 단어들 중에 알맞은 것을 선택해 문장을 완성하세요.', content: '(Wounding, Wounded, Be wounded) in his leg, John could no longer walk.', answer: 'Wounded in his leg, John could no longer walk.', show: false},
+			{id: 21, title: '빈칸에 알맞은 단어를 선택해 문장을 완성하세요.', content: 'I got my wallet ____________ . <br /> a. steal b. stealing c. stolen d. to steal', answer: 'c. stolen', show: false},
+			{id: 22, title: '빈칸에 알맞은 단어를 선택해 문장을 완성하세요.', content: 'The grass wants ____________ . <br /> a. cut b. cutting c. to cut d. to be cutting', answer: 'b. cutting', show: false},
+			{id: 23, title: '빈칸에 알맞은 단어를 선택해 문장을 완성하세요.', content: 'I have no choice but ____________ his proposal. <br /> a. accept b. accepting c. to accept d. to accepting', answer: 'c. to accept', show: false},
+			{id: 24, title: '빈칸에 알맞은 단어를 선택해 문장을 완성하세요.', content: 'I can’t put off ____________ to the dentist any longer. <br /> a. go b. going c. to go d. to going', answer: 'b. going', show: false},
+			{id: 25, title: '빈칸에 알맞은 단어를 선택해 문장을 완성하세요.', content: '____________ in Chinese characters, it was not easy to understand. <br /> a. Writing b. Written c. To write d. To be written', answer: 'b. Written', show: false},
+			{id: 26, title: 'Find the incorrect sentences in the following sentences', content: 'a. Dose he can do it? &nbsp;&nbsp; b. The key opened the door. &nbsp;&nbsp; c. Little did I dream of doing such a thing. &nbsp;&nbsp; d. John should do well on his final tomorrow.', answer: 'a. Dose he can do it?', show: false},
+			{id: 27, title: 'Find the incorrect sentences in the following sentences', content: 'a. Boys will be boys. &nbsp;&nbsp; b. Anybody can make a mistake. &nbsp;&nbsp; c. My advice is that he admit his mistake. &nbsp;&nbsp; d. The movie was boring, but we should have seen the movie.', answer: 'd. The movie was boring, but we should have seen the movie.', show: false},
+			{id: 28, title: 'Find the incorrect sentences in the following sentences', content: 'a. She cannot be a liar. &nbsp;&nbsp; b. The door will not open. &nbsp;&nbsp; c. Could I see your driving licence? &nbsp;&nbsp; d. My parents were satisfied with my final grade.', answer: 'd. My parents were satisfied with my final grade.', show: false},
+			{id: 29, title: 'Find the incorrect sentences in the following sentences', content: 'a. The romance reads well. &nbsp;&nbsp; b. John has no house to live in. &nbsp;&nbsp; c. The statesman was looked up to. &nbsp;&nbsp; d. Please let the news knowing to everybody.', answer: 'd. Please let the news knowing to everybody.', show: false},
+			{id: 29, title: 'Find the incorrect sentences in the following sentences', content: 'a. I’m getting angry hungry. &nbsp;&nbsp; b. Who is to blame for the accident? &nbsp;&nbsp; c. The agreed not to attack each other. &nbsp;&nbsp; d. Would you mind if I opening the window?', answer: 'd. Would you mind if I opening the window?', show: false},
 		]
 	},
     {	
