@@ -13,11 +13,11 @@ export const store = writable([
 			{id: 6, key: '430250656?h=7bc6a601b1'},
 		],
 		quiz: [
-			{id: 1, title: '위 예시에 알맞은 답을 선택하세요.', content: '1. 변별력 있는 소리의 최소 단위: (Phoneme, Idiom, Sentence, Morpheme, Phrase)', answer: 'Phoneme', show: false},
-			{id: 2, title: '위 예시에 알맞은 답을 선택하세요.', content: '2. 더 이상쪼갤수 없는 의미를 지니는 최소 단위: (Phoneme, Idiom, Sentence, Morpheme, Phrase)', answer: 'Morpheme', show: false},
-			{id: 3, title: '위 예시에 알맞은 답을 선택하세요.', content: '3. 대문자로 시작하여 period(.) , question mark(?), interjection mark(!)로 끝난다: (Phoneme, Idiom, Sentence, Morpheme, Phrase)', answer: 'Sentence', show: false},
-			{id: 4, title: '위 예시에 알맞은 답을 선택하세요.', content: '4. 주어와 동사를 갖추지 않고 두 개 이상의 단어가 모여 예측 가능한 하나의 기능을하는 단위: (Phoneme, Idiom, Sentence, Morpheme, Phrase)', answer: 'Phrase', show: false},
-			{id: 5, title: '위 예시에 알맞은 답을 선택하세요.', content: '5. 두개 이상의 단어가 결합하여 문장을 이루지 못하지만 특정한 의미로 사용되는 관용표현: (Phoneme, Idiom, Sentence, Morpheme, Phrase)', answer: 'Idiom', show: false}
+			{id: 1, title: '위 예시에 알맞은 답을 선택하세요.', content: '변별력 있는 소리의 최소 단위: (Phoneme, Idiom, Sentence, Morpheme, Phrase)', answer: 'Phoneme', show: false},
+			{id: 2, title: '위 예시에 알맞은 답을 선택하세요.', content: '더 이상쪼갤수 없는 의미를 지니는 최소 단위: (Phoneme, Idiom, Sentence, Morpheme, Phrase)', answer: 'Morpheme', show: false},
+			{id: 3, title: '위 예시에 알맞은 답을 선택하세요.', content: '대문자로 시작하여 period(.) , question mark(?), interjection mark(!)로 끝난다: (Phoneme, Idiom, Sentence, Morpheme, Phrase)', answer: 'Sentence', show: false},
+			{id: 4, title: '위 예시에 알맞은 답을 선택하세요.', content: '주어와 동사를 갖추지 않고 두 개 이상의 단어가 모여 예측 가능한 하나의 기능을하는 단위: (Phoneme, Idiom, Sentence, Morpheme, Phrase)', answer: 'Phrase', show: false},
+			{id: 5, title: '위 예시에 알맞은 답을 선택하세요.', content: '두개 이상의 단어가 결합하여 문장을 이루지 못하지만 특정한 의미로 사용되는 관용표현: (Phoneme, Idiom, Sentence, Morpheme, Phrase)', answer: 'Idiom', show: false}
 		]
 	},
 	{	
