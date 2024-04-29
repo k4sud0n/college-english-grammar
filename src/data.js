@@ -33,7 +33,7 @@ export const store = writable([
 		],
 		quiz: [
 			{id: 1, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: 'What (about, are, you, thinking) ?', answer: 'What are you thinking about?', show: false},
-			{id: 2, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: 'Um, it\'s (an, answered, easily, question, not).', answer: 'Um, it\'s not easily answered question.', show: false},
+			{id: 2, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: 'Um, it\'s (answered, easily, question, not).', answer: 'Um, it\'s not easily answered question.', show: false},
 			{id: 3, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: 'A (a, friend, friend, in, indeed, is, need).', answer: 'A friend in need is a friend indeed.', show: false},
 			{id: 4, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: 'Do (it, know, made, who, you)?', answer: 'Do you know who made it?', show: false},
 			{id: 5, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: 'Where (a, a, is, is, there, way, will).', answer: 'Where there is a will there is a way.', show: false}
