@@ -70,7 +70,7 @@ export const store = writable([
 			{id: 6, key: '430251057?h=18ae2e002f'},
 		],
 		quiz: [
-			{id: 1, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: 'World war ll ( ______ ) in 1939. (break out, broke out)', answer: 'World war ll broke out in 1939.', show: false},
+			{id: 1, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: 'World war II ( ______ ) in 1939. (break out, broke out)', answer: 'World war II broke out in 1939.', show: false},
 			{id: 2, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: 'Can I call you later? I ( _____ ) now. (drive, am driving)', answer: 'Can I call you later? I am driving now.', show: false},
 			{id: 3, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: 'I will stay home if it ( _______ ) tomorrow. (rains, will rain)', answer: 'I will stay home if it rains tomorrow.', show: false},
 			{id: 4, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: 'Wait here till the professor ( ________ ). (comes, will come).', answer: 'Wait here till the professor comes.', show: false},
@@ -89,7 +89,7 @@ export const store = writable([
 			{id: 6, key: '430251213?h=0b3ef8634c'},
 		],
 		quiz: [
-			{id: 1, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: 'Actually, (a, about, abroad, I am, taking, trip).', answer: 'Actually, I’m thinking about taking a trip abroad.', show: false},
+			{id: 1, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: 'Actually, (a, about, abroad, I am, taking, trip, thinking).', answer: 'Actually, I’m thinking about taking a trip abroad.', show: false},
 			{id: 2, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: 'I (been, concert, have, just, to, the). It was fantastic!', answer: 'I have just been to the concert. It was fantastic!', show: false},
 			{id: 3, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: 'He (been, for, has, English, teaching, ten, years).', answer: 'He has been teaching English for ten years.', show: false},
 			{id: 4, title: '괄호 안에 단어들을 알맞은 순서로 문장을 완성하세요.', content: 'I (am, anything, do, for, to, willing, you).', answer: 'I am willing to do anything for you.', show: false},
